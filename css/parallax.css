@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+.sectie {
+  /* min-height: 60vw; */
+  border: 1px solid;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  padding: 2em;
+}
+
+/* alleen de secties met een parallax achtergrond */
+.sectie--achtergrond {
+  padding: 40vh 3em;
+  color: rgba(255, 255, 255, .7);
+  font-size: 1.5em;
+  text-shadow: 0 0 14px black;
+  overflow-x: hidden;
+}
+
+.sectie--2 {
+  background-image: url("https://i.pinimg.com/originals/15/79/25/157925e28f33c43a30973791b2f787f4.jpg");
+}
+
+.sectie--4 {
+  background-image: url("https://www.media.inaf.it/wp-content/uploads/2018/03/nebulosa-rosetta-hubble.jpg");
+}
+
+.sectie--4 span {
+  transition: margin-left 1s ease-out;
+}
+
+
+.sectie--4 span:nth-child(2) {
+  color: red;
+}
+
+.sectie--4__kop span:nth-child(1) {
+  margin-left: -250px;
+}
+
+.sectie--4__kop span:nth-child(2) {
+  margin-left: 1700px;
+}
+
+.sectie--4__kop span:nth-child(3) {
+  margin-left: 2000px;
+}
+
+.sectie--6 {
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/768273615167598807/B9342999D8ED77616AABF619D504A17CBDD1C62A/");
+}
